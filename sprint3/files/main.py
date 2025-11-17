@@ -1,0 +1,5 @@
+file = open('example.txt', 'r', encoding='utf-8')
+# file.write('Зевну, укроюсь с головою,\nбудильник заведу на март.\n')
+content = file.read()
+print(content)
+file.close()
